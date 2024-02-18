@@ -5,6 +5,9 @@ def main():
     st.title('Washington DMV')
     st.subheader("Chapter 1")
     components.iframe("https://docs.google.com/presentation/d/e/2PACX-1vSCZ14JAYUZ3-fhbfoZkVt8yDTHD2CV1Qdij3XQKORVDACQ1e3fhm04-7AuGKBlwFLcl1_JpsB9_-VV/embed?start=false&loop=false&delayms=3000", height=700)
+
+    st.subheader("Vocabulary Spanish")
+    components.iframe("https://docs.google.com/presentation/d/e/2PACX-1vSlTRoYPiPaqV5E-7n1frn1Pi8aKl7NseVTiIkbqmOmWWUJ5qyCQ39O83lZo0iL66MbC2U_qAua_RvE/embed?start=false&loop=false&delayms=3000", height = 700)
     st.subheader("Practice Questions")
     st.markdown("<a href='https://www.youtube.com/playlist?list=PLRJyX-4nIXo8H4BPsB14_T3XpPvajJBP9' target='_blank'><img width='300' src='https://i.ytimg.com/vi/r5O8FDdo3VE/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLChqqgwa6igNGtWzH-s_g7MS54pxQ'></a>", unsafe_allow_html=True)
     st.subheader('Full Book')
